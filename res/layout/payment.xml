@@ -1,0 +1,252 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEFA"
+    android:orientation="vertical" >
+
+ 
+    <ScrollView
+        android:id="@+id/scrollView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+  <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+        
+  <ImageView 
+        android:id="@+id/info"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/info">
+     
+  </ImageView>
+
+
+  <TextView
+      android:id="@+id/userDetails"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="USER DETAILS"
+      android:textSize="20dip"
+      android:textStyle="normal|bold|italic"
+      android:textColor="#330066"
+      android:layout_gravity="center" />
+
+</LinearLayout>
+
+  <TextView
+      android:id="@+id/details"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:textSize="15dip"
+      android:textStyle="normal|bold|italic"
+      android:textColor="#990000"
+      android:text="Please fill up the following form with your details :" />
+  
+  <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+      <TextView
+           android:id="@+id/name1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"  
+           android:text="Name :" />
+
+  <EditText
+      android:id="@+id/textname1"
+      android:layout_width="136dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:ems="10"
+      android:inputType="textPersonName|textCapCharacters" >
+
+      <requestFocus />
+  </EditText>
+  </LinearLayout>
+  
+   <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+       <TextView
+           android:id="@+id/address1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Address :" />
+       
+       <EditText
+       android:id="@+id/textaddress1"
+       android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textPostalAddress|textCapCharacters" />
+  
+    </LinearLayout>
+    
+   <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+       <TextView
+           android:id="@+id/state"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="State :" />
+       
+      <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp" />
+       </LinearLayout>
+       
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+      
+     <TextView
+       android:id="@+id/city"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City :" />
+
+
+     
+     <Spinner
+       android:id="@+id/spinner2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp" />
+     
+     
+     </LinearLayout>
+     
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+     
+     
+        <TextView
+            android:id="@+id/textpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pincode: " />
+        
+        
+    <EditText
+        android:id="@+id/pincode1"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="number" />
+     
+         </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile no. :" />
+        
+            <EditText
+        android:id="@+id/mob_num"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="phone" />
+     
+        </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textemail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email address :- " />
+
+        <EditText
+            android:id="@+id/emailID"
+            android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+  </LinearLayout>
+            
+      <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Done" 
+        android:textColor="#008000"
+ 	    android:background="#ADD8E6"/>
+      
+      <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Note: The mode of payment is only Cash-On-Delivery 
+
+available." />
+      
+      
+
+
+
+     </LinearLayout>
+     </ScrollView>
+
+
+     </LinearLayout>

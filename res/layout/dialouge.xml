@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/save_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATTENTION"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+   <View
+             android:layout_width="fill_parent"
+             android:layout_height="2dp"
+             android:layout_marginTop="10dp"
+             android:background="#00c0ff"/>
+
+    <TextView
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Do you want to save the item ?" 
+        android:textColor="#0000A0"/>
+    
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="Cancel" 
+            android:background="#ADD8E6"
+            android:textColor="#008000"/>
+
+    <Button
+        android:id="@+id/save"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Save"
+        android:background="#ADD8E6" 
+		 android:textColor="#008000"/>
+    </LinearLayout>
+
+</LinearLayout>

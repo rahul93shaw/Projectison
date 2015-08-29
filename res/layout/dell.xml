@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8FE2E"
+    tools:context="com.example.myproject.MainActivity"
+    tools:ignore="MergeRootFrame" >
+       
+    <TextView 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:id="@+id/TextViewProductTitle"
+   android:layout_gravity="center" 
+   android:layout_margin="5dip"
+   android:textSize="12dip" 
+   android:textStyle="normal|bold|italic"
+   android:text="DELL ULTRABOOK CORE I7, 4th GEN, 8GB, 500GB HDD"
+   android:textColor="#0404B4">
+   </TextView>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+    <ImageView 
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/laptop1">
+     
+    </ImageView>
+    <ImageView 
+        android:id="@+id/imagesale1"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sale3">
+     
+    </ImageView>
+    
+     </LinearLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top" >
+    
+
+    <TextView
+        android:id="@+id/textview01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Name : Dell Ultrabook Core\n
+Processor:	Intel Core i7 (4th Gen)\n
+Processor Speed: 1.8Ghz Turbo Boost 2.40 GHz\n
+Operating System: Windows 8.1\n
+Graphic Card: 1 GB INTEL HD GRAPHICS 4400\n
+Hard Disk Drive: 500 GB\n
+RAM: 8GB\n
+Screen Size = 15.6\n
+Warranty: 1 year Manufacturer Warranty\n
+Webcam: 720p HD"
+ />
+    </ScrollView>
+    
+    
+    
+    <TextView
+        android:id="@+id/textview02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        android:textSize="15dip"
+        android:textColor="#FE2E64"
+        android:textStyle="normal|bold|italic"
+        android:text="Price : Rs. 48,999" />
+    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/textview03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Quantity(max 3 per order):" />
+    <EditText
+            android:id="@+id/text1"
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+    		android:layout_height="wrap_content"
+    		android:ems="10"
+    		android:inputType="number" />
+    
+ 	</LinearLayout>
+ 	<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+     <Button
+         android:id="@+id/button1"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_marginLeft="40dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:text="Back" 
+         android:textColor="#008000"
+          android:background="#ADD8E6"/>
+     <Button
+ 	    android:id="@+id/button2"
+ 	    style="?android:attr/buttonStyleSmall"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginLeft="120dp"
+ 	    android:layout_gravity="center"
+ 	    android:text="Add To Cart"
+ 	    android:textColor="#008000"
+ 	     android:background="#ADD8E6" />
+     
+ 	</LinearLayout>
+    
+    
+ 	</LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+

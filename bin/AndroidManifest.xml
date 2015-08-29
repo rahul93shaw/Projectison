@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.slidingmenu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logonew"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <!-- Splash screen -->
+        <activity
+            android:name="info.androidhive.slidingmenu.SplashScreen"
+            android:label="@string/app_name"
+        
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+ 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  
+            android:name=".DemoFirstScreen">
+        </activity>
+        <activity 
+            android:name=".DemoSecondScreen">
+        </activity>
+        <activity 
+            android:name=".DemoThirdScreen">
+        </activity>
+        <activity 
+            android:name=".DemoFourthScreen">
+        </activity>
+        <activity 
+            android:name=".DemoFifthScreen">
+        </activity>
+        <activity 
+            android:name=".DemoSixthScreen">
+        </activity>
+        <activity 
+            android:name=".DemoSeventhScreen">
+        </activity>
+         <activity 
+            android:name=".DemoEightScreen">
+        </activity>
+        <activity 
+            android:name=".DemoNinthScreen">
+        </activity>
+        <activity 
+            android:name=".confirmation">
+        </activity>
+        
+        <activity 
+            android:name=".payment">
+        </activity>
+        <activity 
+            android:name=".Cartdetails">
+        </activity>
+        <activity 
+            android:name=".Delivery">
+        </activity>
+          <activity 
+            android:name=".Rate">
+        </activity>
+        
+        <activity 
+            android:name=".Exit">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+    </application>
+
+</manifest>

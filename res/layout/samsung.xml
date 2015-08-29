@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8FE2E" >
+    <TextView 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:id="@+id/TextViewProductTitle6"
+   android:layout_gravity="center" 
+   android:layout_margin="5dip"
+   android:textSize="12dip" 
+   android:textStyle="normal|bold|italic"
+   android:text="SAMSUNG GALAXY S4"
+   android:textColor="#0404B4">
+   </TextView>
+   
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="05dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+    
+   <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+   <ImageView 
+        android:id="@+id/imagesale5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sale1">
+     
+    </ImageView>
+       
+       
+       <ImageView 
+        android:id="@+id/imageView7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/phone2">
+    </ImageView>
+    
+       <ImageView 
+        android:id="@+id/imageView07"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/samsung1">
+    </ImageView>
+       
+       <ImageView 
+        android:id="@+id/imageView007"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/samsung2">
+    </ImageView>
+    
+       <ImageView 
+        android:id="@+id/imageView0007"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/samsung3">
+    </ImageView>
+    
+     </LinearLayout>
+     </HorizontalScrollView>
+    
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top" >
+    
+
+    <TextView
+        android:id="@+id/textview19"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Name : SAMSUNG GALAXY S4\n
+Chipset: Qualcomm Quad Core Processor\n
+CPU: 3 GHz Cortex-A5\n
+Operating System: Android 4.2\n
+RAM: 1 GB\n
+Dimensions:	150.5 x 80.3 x 10.5 mm\n
+Weight:	230 g\n
+Capacity: 8 GB(Expandable Storage : 32 GB)\n
+Screen: 5.5-inch Capacitive Touchscreen\n
+Warranty: 1 year Manufacturer Warranty\n
+Camera: 8.0 MP"
+ />
+    </ScrollView>
+    
+    <TextView
+        android:id="@+id/textview20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        android:textSize="15dip"
+        android:textColor="#FE2E64"
+        android:textStyle="normal|bold|italic"
+        android:text="Price : Rs. 18,999" />
+    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/textview21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Quantity(max 3 per order):" />
+    <EditText
+            android:id="@+id/text7"
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+    		android:layout_height="wrap_content"
+    		android:ems="10"
+    		android:inputType="number" />
+    
+ 	</LinearLayout>
+ 	<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+     <Button
+         android:id="@+id/button13"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_marginLeft="40dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:text="Back"
+         android:textColor="#008000"
+ 	    android:background="#ADD8E6" />
+     <Button
+ 	    android:id="@+id/button14"
+ 	    style="?android:attr/buttonStyleSmall"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginLeft="120dp"
+ 	    android:layout_gravity="center"
+ 	    android:text="Add To Cart"
+ 	   android:textColor="#008000"
+ 	    android:background="#ADD8E6" />
+     
+ 	</LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8FE2E"
+    tools:context="com.example.myproject.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/ro"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#800080"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:layout_marginTop="40dp"
+        android:stepSize="1.0"
+        android:background="#FFA500"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:src="@drawable/happy" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" 
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+       android:textColor="#008000"
+ 	    android:background="#ADD8E6"/>
+    
+
+     </LinearLayout>
+       

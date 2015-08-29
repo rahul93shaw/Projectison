@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picfinal" >
+ 
+   <ProgressBar
+        android:layout_width="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:indeterminate="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="101dp"
+        android:gravity="center_horizontal"
+        android:text=" © Taniya, Nahid, Pritam, Rahul, Souvik"
+        android:textStyle="normal|bold|italic"
+        android:textColor="#3300CC"
+        android:textSize="15dp" />
+ 
+</RelativeLayout>

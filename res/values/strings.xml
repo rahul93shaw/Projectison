@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">SAME-Shopping on Android Made Easy</string>
+    <string name="action_search">action_search</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="shopping_cart">My Cart</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="action_help">FAQ</string>
+    <string name="about_us">About Us</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+     <string name="ro"><u><b>SHARE YOUR EXPERIENCE WITH US !!</b></u></string>
+    
+    
+    
+   
+     
+    
+     
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

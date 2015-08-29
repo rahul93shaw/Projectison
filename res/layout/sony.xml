@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8FE2E" >
+    <TextView 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content" 
+   android:id="@+id/TextViewProductTitle2"
+   android:layout_gravity="center" 
+   android:layout_margin="5dip"
+   android:textSize="15dip" 
+   android:textStyle="normal|bold|italic"
+   android:text="SONY F5 CINEALTA"
+   android:textColor="#0404B4">
+   </TextView>
+   
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="05dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+   <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+       <ImageView 
+        android:id="@+id/imagesale8"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sale1">
+        </ImageView>
+    
+    <ImageView 
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/camera2">
+     
+    </ImageView>
+     <ImageView 
+        android:id="@+id/imageView03"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sony1">
+     
+    </ImageView>
+    <ImageView 
+        android:id="@+id/imageView003"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sony2">
+     
+    </ImageView>
+    <ImageView 
+        android:id="@+id/imageViewsony3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sony4">
+     
+    </ImageView>
+    
+    <ImageView 
+        android:id="@+id/imageViewsony5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sony5">
+     
+    </ImageView>
+    
+    
+    
+   
+    
+     </LinearLayout>
+     </HorizontalScrollView>
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="05dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top" >
+    
+
+    <TextView
+        android:id="@+id/textview07"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Name : SONY F5 CINEALTA\n
+Super 35mm 4K CMOS Image Sensor\n
+4,096 x 2,160, 11.6M total pixel, 8.9M effective pixel, Bayer pattern\n
+High sensitivity (ISO 2000) and low noise (S/N 57dB w/NR off)\n
+Multi CODEC: XAVC HD, MPEG2 HD, SR SStP HD (SxS Memory Card) 2K RAW (AXS Memory Card)\n
+Shutter Speed: 1/24s to 1/6,000s\n
+Dynamic Range: 14 STOPS\n
+Built-in 10-Bit 4:4:4 at 440 Mbps\n
+Olivine Lithium Iron Phosphate Batteriesn
+2 Years Warranty\n
+USB,Wi-Fi,Bluetooth supported"
+ />
+    </ScrollView>
+    
+    <TextView
+        android:id="@+id/textview08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="right"
+        android:textSize="15dip"
+        android:textColor="#FE2E64"
+        android:textStyle="normal|bold|italic"
+        android:text="Price : Rs. 69,999" />
+    
+     <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/textview09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Quantity(max 3 per order):" />
+    <EditText
+            android:id="@+id/text3"
+            android:layout_width="50dp"
+            android:layout_marginLeft="10dp"
+    		android:layout_height="wrap_content"
+    		android:ems="10"
+    		android:inputType="number" />
+    
+ 	</LinearLayout>
+ 	<LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+     <Button
+         android:id="@+id/button5"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_marginLeft="40dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="left"
+         android:text="Back" 
+         android:textColor="#008000"
+ 	    android:background="#ADD8E6"/>
+     <Button
+ 	    android:id="@+id/button6"
+ 	    style="?android:attr/buttonStyleSmall"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginLeft="120dp"
+ 	    android:layout_gravity="center"
+ 	    android:text="Add To Cart" 
+ 	    android:textColor="#008000"
+ 	    android:background="#ADD8E6"/>
+     
+ 	</LinearLayout>
+    
+
+</LinearLayout>
